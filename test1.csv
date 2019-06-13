@@ -1,0 +1,5 @@
+p, alice, users1, read
+p, bob, users2, write
+p, bob, users2, read
+p, alice, users3, read
+p, bob, users4, write

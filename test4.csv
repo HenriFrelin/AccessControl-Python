@@ -1,0 +1,55 @@
+p, alice, users1, read
+p, bob, users2, write
+p, bob, users2, read
+p, alice, users3, read
+p, bob, users4, write
+p, alice, users5, read
+p, bob, users6, write
+p, bob, users6, read
+p, alice, users7, read
+p, bob, users8, write
+p, stan, data4, read
+p, stan, data6, write
+g, stand, data_admin
+g, alice, data_admin
+g, james, user_admin
+p, data_admin, data0, read
+p, data_admin, data0, write
+p, data_admin, data1, read
+p, data_admin, data1, write
+p, data_admin, data2, read
+p, data_admin, data2, write
+p, data_admin, data3, read
+p, data_admin, data3, write
+g, user_admin, data_admin
+p, alice, users1, read
+p, bob, users2, write
+p, bob, users2, read
+p, alice, users3, read
+p, bob, users4, write
+p, alice, users5, read
+p, bob, users6, write
+p, bob, users6, read
+p, alice, users7, read
+p, bob, users8, write
+p, stan, data4, read
+p, stan, data6, write
+g, stand, data_admin
+g, alice, data_admin
+g, james, user_admin
+g, elise, db_admin
+g, alex, db_admin
+p, data_admin, data0, read
+p, data_admin, data0, write
+p, data_admin, data1, read
+p, data_admin, data1, write
+p, data_admin, data2, read
+p, data_admin, data2, write
+p, data_admin, data3, read
+p, data_admin, data3, write
+p, db1_admin, db1, read
+p, db1_admin, db1, write
+p, db1_admin, db2, read
+p, db1_admin, db2, write
+g, user_admin, data_admin
+g, db_admin, db1_admin

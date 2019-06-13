@@ -1,0 +1,13 @@
+p, alice, users1, read
+p, bob, users2, write
+p, bob, users2, read
+p, alice, users3, read
+p, bob, users4, write
+p, user_admin, users, write
+p, user_admin, users, read
+g, alice, user_admin
+g, bob, user_admin
+p, alice, users1, read
+p, bob, users2, write
+p, bob, users2, read
+p, alice, users3, read
